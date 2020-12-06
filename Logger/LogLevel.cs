@@ -3,7 +3,7 @@
 namespace Logger
 {
     /// <summary>
-    /// Виды сообщений логов
+    /// Виды сообщений логов!
     /// </summary>
 	public enum LogLevel
 	{
