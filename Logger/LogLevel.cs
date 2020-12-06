@@ -2,6 +2,9 @@
 
 namespace Logger
 {
+    /// <summary>
+    /// Виды сообщений логов
+    /// </summary>
 	public enum LogLevel
 	{
 		Debug,
