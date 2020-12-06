@@ -1,0 +1,32 @@
+{
+  "sqlsettings": {
+    "DBName": "",
+    "ServerDB": "ulges-app",
+    "Autentification": "Windows",
+    "UserConnect": null,
+    "PasswConnect": null
+  },
+  "telegramsettings": {
+    "botName": "ulges_echo_bot",
+    "botAdmin": "@UlgesEchoBot",
+    "token": "1452444783:AAE9eb9yYnz0Mdg4E26OfQWNeSHBLOEi4CQ",
+    "botId": 1452444783,
+    "userId": 465686572,
+    "userTelefon": 79279850825
+  },
+  "settingsSMSGate": {
+    "ServerDB": "192.168.1.248",
+    "UserConnect": "Admin",
+    "PasswConnect": null,
+    "connectString": "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\\\192.168.1.248\\smsgate\\SMSGateServer.mdb",
+    "numberSelectTelefones": "",
+    "numberTelefonSMSGate": "79374512684",
+    "DIRECT": {
+      "InputMessage": true,
+      "OutgoingMessage": false
+    }
+  },
+  "timerCallback": {
+    "period": 2000
+  }
+}

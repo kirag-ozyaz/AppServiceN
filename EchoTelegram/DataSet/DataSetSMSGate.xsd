@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSMSGate" targetNamespace="http://tempuri.org/DataSetSMSGate.xsd" xmlns:mstns="http://tempuri.org/DataSetSMSGate.xsd" xmlns="http://tempuri.org/DataSetSMSGate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSMSGate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetSMSGate" msprop:Generator_UserDSName="DataSetSMSGate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SMS_MESSAGES" msprop:Generator_TableClassName="SMS_MESSAGESDataTable" msprop:Generator_TableVarName="tableSMS_MESSAGES" msprop:Generator_RowChangedName="SMS_MESSAGESRowChanged" msprop:Generator_TablePropName="SMS_MESSAGES" msprop:Generator_RowDeletingName="SMS_MESSAGESRowDeleting" msprop:Generator_RowChangingName="SMS_MESSAGESRowChanging" msprop:Generator_RowEvHandlerName="SMS_MESSAGESRowChangeEventHandler" msprop:Generator_RowDeletedName="SMS_MESSAGESRowDeleted" msprop:Generator_RowClassName="SMS_MESSAGESRow" msprop:Generator_UserTableName="SMS_MESSAGES" msprop:Generator_RowEvArgName="SMS_MESSAGESRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="SMS_DIRECT" msprop:Generator_ColumnVarNameInTable="columnSMS_DIRECT" msprop:Generator_ColumnPropNameInRow="SMS_DIRECT" msprop:Generator_ColumnPropNameInTable="SMS_DIRECTColumn" msprop:Generator_UserColumnName="SMS_DIRECT" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="SMS_PHONE" msprop:Generator_ColumnVarNameInTable="columnSMS_PHONE" msprop:Generator_ColumnPropNameInRow="SMS_PHONE" msprop:Generator_ColumnPropNameInTable="SMS_PHONEColumn" msprop:Generator_UserColumnName="SMS_PHONE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SMS_TEXT" msprop:Generator_ColumnVarNameInTable="columnSMS_TEXT" msprop:Generator_ColumnPropNameInRow="SMS_TEXT" msprop:Generator_ColumnPropNameInTable="SMS_TEXTColumn" msprop:Generator_UserColumnName="SMS_TEXT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1073741823" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SMS_TIME" msprop:Generator_ColumnVarNameInTable="columnSMS_TIME" msprop:Generator_ColumnPropNameInRow="SMS_TIME" msprop:Generator_ColumnPropNameInTable="SMS_TIMEColumn" msprop:Generator_UserColumnName="SMS_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SMS_VP" msprop:Generator_ColumnVarNameInTable="columnSMS_VP" msprop:Generator_ColumnPropNameInRow="SMS_VP" msprop:Generator_ColumnPropNameInTable="SMS_VPColumn" msprop:Generator_UserColumnName="SMS_VP" type="xs:int" minOccurs="0" />
+              <xs:element name="SMS_STATE" msprop:Generator_ColumnVarNameInTable="columnSMS_STATE" msprop:Generator_ColumnPropNameInRow="SMS_STATE" msprop:Generator_ColumnPropNameInTable="SMS_STATEColumn" msprop:Generator_UserColumnName="SMS_STATE" type="xs:int" minOccurs="0" />
+              <xs:element name="SMS_PRIORITY" msprop:Generator_ColumnVarNameInTable="columnSMS_PRIORITY" msprop:Generator_ColumnPropNameInRow="SMS_PRIORITY" msprop:Generator_ColumnPropNameInTable="SMS_PRIORITYColumn" msprop:Generator_UserColumnName="SMS_PRIORITY" type="xs:int" minOccurs="0" />
+              <xs:element name="F_REQ_STATUS" msprop:Generator_ColumnVarNameInTable="columnF_REQ_STATUS" msprop:Generator_ColumnPropNameInRow="F_REQ_STATUS" msprop:Generator_ColumnPropNameInTable="F_REQ_STATUSColumn" msprop:Generator_UserColumnName="F_REQ_STATUS" type="xs:int" minOccurs="0" />
+              <xs:element name="F_USSD" msprop:Generator_ColumnVarNameInTable="columnF_USSD" msprop:Generator_ColumnPropNameInRow="F_USSD" msprop:Generator_ColumnPropNameInTable="F_USSDColumn" msprop:Generator_UserColumnName="F_USSD" type="xs:int" minOccurs="0" />
+              <xs:element name="F_WAIT_SUBMIT" msprop:Generator_ColumnVarNameInTable="columnF_WAIT_SUBMIT" msprop:Generator_ColumnPropNameInRow="F_WAIT_SUBMIT" msprop:Generator_ColumnPropNameInTable="F_WAIT_SUBMITColumn" msprop:Generator_UserColumnName="F_WAIT_SUBMIT" type="xs:int" minOccurs="0" />
+              <xs:element name="GROUP_ID" msprop:Generator_ColumnVarNameInTable="columnGROUP_ID" msprop:Generator_ColumnPropNameInRow="GROUP_ID" msprop:Generator_ColumnPropNameInTable="GROUP_IDColumn" msprop:Generator_UserColumnName="GROUP_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="GROUP_COUNT" msprop:Generator_ColumnVarNameInTable="columnGROUP_COUNT" msprop:Generator_ColumnPropNameInRow="GROUP_COUNT" msprop:Generator_ColumnPropNameInTable="GROUP_COUNTColumn" msprop:Generator_UserColumnName="GROUP_COUNT" type="xs:int" minOccurs="0" />
+              <xs:element name="GROUP_INDEX" msprop:Generator_ColumnVarNameInTable="columnGROUP_INDEX" msprop:Generator_ColumnPropNameInRow="GROUP_INDEX" msprop:Generator_ColumnPropNameInTable="GROUP_INDEXColumn" msprop:Generator_UserColumnName="GROUP_INDEX" type="xs:int" minOccurs="0" />
+              <xs:element name="MODULE_ID" msprop:Generator_ColumnVarNameInTable="columnMODULE_ID" msprop:Generator_ColumnPropNameInRow="MODULE_ID" msprop:Generator_ColumnPropNameInTable="MODULE_IDColumn" msprop:Generator_UserColumnName="MODULE_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="MODULE_HANDLE" msprop:Generator_ColumnVarNameInTable="columnMODULE_HANDLE" msprop:Generator_ColumnPropNameInRow="MODULE_HANDLE" msprop:Generator_ColumnPropNameInTable="MODULE_HANDLEColumn" msprop:Generator_UserColumnName="MODULE_HANDLE" type="xs:int" minOccurs="0" />
+              <xs:element name="RULE_ID" msprop:Generator_ColumnVarNameInTable="columnRULE_ID" msprop:Generator_ColumnPropNameInRow="RULE_ID" msprop:Generator_ColumnPropNameInTable="RULE_IDColumn" msprop:Generator_UserColumnName="RULE_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="CUSTOM_ID" msprop:Generator_ColumnVarNameInTable="columnCUSTOM_ID" msprop:Generator_ColumnPropNameInRow="CUSTOM_ID" msprop:Generator_ColumnPropNameInTable="CUSTOM_IDColumn" msprop:Generator_UserColumnName="CUSTOM_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIME_SMSC" msprop:Generator_ColumnVarNameInTable="columnTIME_SMSC" msprop:Generator_ColumnPropNameInRow="TIME_SMSC" msprop:Generator_ColumnPropNameInTable="TIME_SMSCColumn" msprop:Generator_UserColumnName="TIME_SMSC" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TIME_SEND_START" msprop:Generator_ColumnVarNameInTable="columnTIME_SEND_START" msprop:Generator_ColumnPropNameInRow="TIME_SEND_START" msprop:Generator_ColumnPropNameInTable="TIME_SEND_STARTColumn" msprop:Generator_UserColumnName="TIME_SEND_START" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TIME_SEND_STOP" msprop:Generator_ColumnVarNameInTable="columnTIME_SEND_STOP" msprop:Generator_ColumnPropNameInRow="TIME_SEND_STOP" msprop:Generator_ColumnPropNameInTable="TIME_SEND_STOPColumn" msprop:Generator_UserColumnName="TIME_SEND_STOP" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TIME_STATUS_REPORT" msprop:Generator_ColumnVarNameInTable="columnTIME_STATUS_REPORT" msprop:Generator_ColumnPropNameInRow="TIME_STATUS_REPORT" msprop:Generator_ColumnPropNameInTable="TIME_STATUS_REPORTColumn" msprop:Generator_UserColumnName="TIME_STATUS_REPORT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ERR_CODE" msprop:Generator_ColumnVarNameInTable="columnERR_CODE" msprop:Generator_ColumnPropNameInRow="ERR_CODE" msprop:Generator_ColumnPropNameInTable="ERR_CODEColumn" msprop:Generator_UserColumnName="ERR_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="EDT" msprop:Generator_ColumnVarNameInTable="columnEDT" msprop:Generator_ColumnPropNameInRow="EDT" msprop:Generator_ColumnPropNameInTable="EDTColumn" msprop:Generator_UserColumnName="EDT" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SMS_MESSAGES_USERS" msprop:Generator_TableClassName="SMS_MESSAGES_USERSDataTable" msprop:Generator_TableVarName="tableSMS_MESSAGES_USERS" msprop:Generator_RowChangedName="SMS_MESSAGES_USERSRowChanged" msprop:Generator_TablePropName="SMS_MESSAGES_USERS" msprop:Generator_RowDeletingName="SMS_MESSAGES_USERSRowDeleting" msprop:Generator_RowChangingName="SMS_MESSAGES_USERSRowChanging" msprop:Generator_RowEvHandlerName="SMS_MESSAGES_USERSRowChangeEventHandler" msprop:Generator_RowDeletedName="SMS_MESSAGES_USERSRowDeleted" msprop:Generator_RowClassName="SMS_MESSAGES_USERSRow" msprop:Generator_UserTableName="SMS_MESSAGES_USERS" msprop:Generator_RowEvArgName="SMS_MESSAGES_USERSRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MESSAGE_ID" msprop:Generator_ColumnVarNameInTable="columnMESSAGE_ID" msprop:Generator_ColumnPropNameInRow="MESSAGE_ID" msprop:Generator_ColumnPropNameInTable="MESSAGE_IDColumn" msprop:Generator_UserColumnName="MESSAGE_ID" type="xs:int" />
+              <xs:element name="USER_ID" msprop:Generator_ColumnVarNameInTable="columnUSER_ID" msprop:Generator_ColumnPropNameInRow="USER_ID" msprop:Generator_ColumnPropNameInTable="USER_IDColumn" msprop:Generator_UserColumnName="USER_ID" type="xs:int" />
+              <xs:element name="READED" msprop:Generator_ColumnVarNameInTable="columnREADED" msprop:Generator_ColumnPropNameInRow="READED" msprop:Generator_ColumnPropNameInTable="READEDColumn" msprop:Generator_UserColumnName="READED" type="xs:boolean" />
+              <xs:element name="DELETED" msprop:Generator_ColumnVarNameInTable="columnDELETED" msprop:Generator_ColumnPropNameInRow="DELETED" msprop:Generator_ColumnPropNameInTable="DELETEDColumn" msprop:Generator_UserColumnName="DELETED" type="xs:boolean" />
+              <xs:element name="EDT" msprop:Generator_ColumnVarNameInTable="columnEDT" msprop:Generator_ColumnPropNameInRow="EDT" msprop:Generator_ColumnPropNameInTable="EDTColumn" msprop:Generator_UserColumnName="EDT" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SMS_MESSAGES_USERS" />
+      <xs:field xpath="mstns:MESSAGE_ID" />
+      <xs:field xpath="mstns:USER_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

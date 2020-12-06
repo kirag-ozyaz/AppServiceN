@@ -1,0 +1,3 @@
+﻿namespace EchoTelegram.DataSet
+{
+}
